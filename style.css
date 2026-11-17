@@ -1,0 +1,96 @@
+
+/* MOBILE-FIRST BASE STYLES */
+
+/* General styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    font-size: 1rem;
+    line-height: 1.5;
+    background: #f5f7fc;
+    color: #172554;
+}
+
+/* Header */
+header {
+    background: #142d70;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
+
+/* Navigation */
+.nav {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding: 1rem;
+}
+
+.nav a {
+    display: block;
+    text-decoration: none;
+    background: #e5edff;
+    color: #142d70;
+    padding: 0.75rem 1rem;
+    text-align: center;
+    border-radius: 6px;
+}
+
+/* Main container */
+.container {
+    width: 90%;
+    margin: 1rem auto;
+}
+
+/* Headings */
+h1 {
+    font-size: 1.5rem;
+}
+
+h2 {
+    font-size: 1.3rem;
+}
+
+/* Today's special banner */
+.banner {
+    background: #fff1d6;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+/* Flexible images */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px;
+}
+
+/* Menu grid */
+.menu-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+
+/* Individual food cards */
+.card {
+    background: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+.card img {
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background: #142d70;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+}
